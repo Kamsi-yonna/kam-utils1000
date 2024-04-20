@@ -1,5 +1,5 @@
 {
-  "name": "kamry",
+  "name": "kam-utils",
   "version": "1.0.0",
   "description": "a unique package.",
   "main": "./dist/index.js",
