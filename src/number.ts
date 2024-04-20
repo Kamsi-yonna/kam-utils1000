@@ -17,11 +17,3 @@ export function percentageNum(num: number, total: number): number {
 export function absoluteNum(num: number): number {
   return Math.abs(num);
 }
-
-// Calculate the factorial of a number
-export function factorialNum(num: number): number {
-  if (num === 0) {
-    return 1;
-  }
-  return num * factorialNum(num - 1);
-}
