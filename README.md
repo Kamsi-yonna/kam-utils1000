@@ -1,4 +1,4 @@
-## README Content for Your Package
+## Kam Utils 1000
 
 ### Overview
 
@@ -8,44 +8,52 @@ Welcome to your package! This package provides a collection of useful functions 
 
 1. **Array Functions**
 
-   - `chunk(arr: any[], size: number): any[][]`: Divides an array into smaller arrays of a specified size.
-   - `randomItem(arr: any[]): any`: Returns a random item from an array.
+   - `chunk`: Divides an array into smaller arrays of a specified size.
+   - `randomItem`: Returns a random item from an array.
 
 2. **Date Functions**
 
-   - `formatDate(date: Date, format: string): string`: Formats a date object into a string based on a specified format.
-   - `daysBetween(date1: Date, date2: Date): number`: Calculates the number of days between two dates.
+   - `formatDate`: Formats a date object into a string based on a specified format.
+   - `daysBetween`: Calculates the number of days between two dates.
 
 3. **String Manipulation Functions**
 
-   - `capitalize(str: string): string`: Capitalizes the first letter of a string.
-   - `lowerCase(str: string): string`: Converts a string to lowercase.
-   - `upperCase(str: string): string`: Converts a string to uppercase.
-   - `trim(str: string): string`: Removes whitespace from the beginning and end of a string.
-   - `replaceAll(str: string, search: string, replace: string): string`: Replaces all occurrences of a search string with a replace string.
-   - `removeUnderscores(str: string): string`: Replaces underscores with spaces in a string.
-   - `formatUrl(url: string): string`: Decodes a URL string.
+   - `replaceAll`: Replaces all occurrences of a search string with a replace string.
+   - `removeUnderscores`: Replaces underscores with spaces in a string.
+   - `formatUrl`: Decodes a URL string.
 
 4. **Number Functions**
 
-   - `roundNum(num: number, decimals: number): number`: Rounds a number to a specified number of decimal places.
-   - `clampNum(num: number, min: number, max: number): number`: Clamps a number between a minimum and maximum value.
-   - `percentageNum(num: number, total: number): number`: Calculates the percentage of a number.
-   - `absoluteNum(num: number): number`: Calculates the absolute value of a number.
+   - `roundNum`: Rounds a number to a specified number of decimal places.
+   - `clampNum`: Clamps a number between a minimum and maximum value.
+   - `percentageNum`: Calculates the percentage of a number.
+   - `absoluteNum`: Calculates the absolute value of a number.
 
 5. **Object Functions**
-   - `keys(obj: object): string[]`: Returns an array of keys in an object.
-   - `values(obj: object): any[]`: Returns an array of values in an object.
-   - `mergeObj(obj1: object, obj2: object): object`: Merges two objects into a new object.
+   - `keys`: Returns an array of keys in an object.
+   - `values`: Returns an array of values in an object.
+   - `mergeObj`: Merges two objects into a new object.
+
+### Installation
+
+To install the kam-utils1000 package, you can use the following command:
+
+```bash
+npm i kam-utils1000
+```
+
+This command will fetch and install the kam-utils1000 package from the npm package registry, making it available for use in your project.
 
 ### Usage
 
 To use this package, simply import the desired functions from the respective files into your project. For example:
 
 ```typescript
-import { chunk, formatDate, capitalize } from "your-package/array.ts";
-import { roundNum, clampNum } from "your-package/number.ts";
-// Use the imported functions in your code
+import { chunk, formatDate, capitalize } from "kam-utils1000/array.ts";
+import { roundNum, clampNum } from "kam-utils1000/number.ts";
+
+// or the entire functions
+import { firmatDate, roundNum } from "kam-utils1000";
 ```
 
 ### Contribution
