@@ -28,3 +28,11 @@ export function replaceAll(
 ): string {
   return str.split(search).join(replace);
 }
+
+export function removeUnderscores(str: string): string {
+  return str.replace(/_/g, " ");
+}
+
+export function formatUrl(url: string): string {
+  return decodeURIComponent(url);
+}
