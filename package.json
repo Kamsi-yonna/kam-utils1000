@@ -1,6 +1,6 @@
 {
   "name": "kam-utils1000",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple lighweight utility package offering essential tools for date formatting, string manipulation, object handling, and more to streamline development tasks.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
