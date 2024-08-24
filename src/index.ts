@@ -29,7 +29,7 @@ export function replaceAll(
   return str.split(search).join(replace);
 }
 
-export * from './object';
+export { keys, mergeObj, values } from './object';
 export * from './array';
 export * from './date';
 export * from './number';
